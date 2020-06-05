@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Display({ display }) {
-  // const [display,setDisplay] = useState(0);
-  return <section className='display'> {display} </section>;
+function Display(props) {
+
+  return <section className='display'> {props.counter} </section>;
 }
 
 export default Display;
